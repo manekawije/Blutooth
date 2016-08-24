@@ -1,595 +1,7 @@
 {
     "$schema": "UX",
     "$definition": {
-        "builderType": "Dialog2",
-        "info": {
-            "createdBy": "davem",
-            "dateCreated": "2016-8-22",
-            "dateLastEdited": "2016-8-22"
-        },
-        "guid": "9eaec2e7-f810-439e-92a4-5e12f6ccf6e8",
         "style_name": "iOS7",
-        "componentName": "bluetoothTest",
-        "componentFilename": "Z:\\Documents\\alpha\\Product Management\\Sample Apps\\20160822 adrduinoBluetooth\\arduinoBluetooth.WebProjects\\Default.WebProject\\bluetoothTest.a5wcmp",
-        "page_fields": [
-            {
-                "controltype": "layout_directive_statictext",
-                "display": "{B=White,Light Blue}{Data=34091368-8691-4a12-aa95-f9951edabde8}{I:'$$format.text'} [Static Text: Arduino Bluetooth Sa] �",
-                "displayODFlat": "{Data=34091368-8691-4a12-aa95-f9951edabde8}{I:'$$format.text'} [Static Text]",
-                "displayOD": "{B=White,Light Blue}{Data=34091368-8691-4a12-aa95-f9951edabde8}{I:'$$format.text'} [Static Text]",
-                "displayODtree": "{B=White,Light Blue}{Data=34091368-8691-4a12-aa95-f9951edabde8}{I:'$$format.text'} [Static Text: Arduino Bluetooth Sa] �",
-                "idInternal": "34091368-8691-4a12-aa95-f9951edabde8",
-                "parentContainer": -1,
-                "inPanelCard": false,
-                "inTreeControl": false,
-                "repeatingSectionParentId": -1,
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Arduino Bluetooth Sample App 0.03</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
-                    "DesignViewHTML": ""
-                },
-                "crc": "4294927999",
-                "v": {
-                    "StaticText": "Arduino Bluetooth Sample App 0.03",
-                    "Class": "<Default>",
-                    "BreakType": "After",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "id": "STATICTEXT_1",
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "precalc": {
-                        "javascriptAbstractSetupCode": ""
-                    }
-                }
-            },
-            {
-                "controltype": "layout_directive_statictext",
-                "display": "{B=White,Light Blue}{Data=9f4e2694-ff1f-4a03-ad0f-570e628bcd9b}{I:'$$format.text'} [Static Text: To Bluetooth]",
-                "displayODFlat": "{Data=9f4e2694-ff1f-4a03-ad0f-570e628bcd9b}{I:'$$format.text'} [Static Text]",
-                "displayOD": "{B=White,Light Blue}{Data=9f4e2694-ff1f-4a03-ad0f-570e628bcd9b}{I:'$$format.text'} [Static Text]",
-                "displayODtree": "{B=White,Light Blue}{Data=9f4e2694-ff1f-4a03-ad0f-570e628bcd9b}{I:'$$format.text'} [Static Text: To Bluetooth]",
-                "idInternal": "9f4e2694-ff1f-4a03-ad0f-570e628bcd9b",
-                "parentContainer": -1,
-                "inPanelCard": false,
-                "inTreeControl": false,
-                "repeatingSectionParentId": -1,
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_2\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >To Bluetooth</div>\n</div>",
-                    "DesignViewHTML": ""
-                },
-                "crc": "4294905401",
-                "v": {
-                    "StaticText": "To Bluetooth",
-                    "Class": "<Default>",
-                    "BreakType": "None",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "id": "STATICTEXT_2",
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "precalc": {
-                        "javascriptAbstractSetupCode": ""
-                    }
-                }
-            },
-            {
-                "controltype": "dialog_formcontrol",
-                "display": "{B=White,Light Blue}{Data=daa2c799-8f79-495c-9575-2c400e669cd5}{I:'$$control.edit'} [toBluetooth] �",
-                "displayODFlat": "{Data=daa2c799-8f79-495c-9575-2c400e669cd5}{I:'$$control.edit'} [toBluetooth]",
-                "displayOD": "{B=White,Light Blue}{Data=daa2c799-8f79-495c-9575-2c400e669cd5}{I:'$$control.edit'} [toBluetooth]",
-                "displayODtree": "{B=White,Light Blue}{Data=daa2c799-8f79-495c-9575-2c400e669cd5}{I:'$$control.edit'} [toBluetooth] �",
-                "idInternal": "daa2c799-8f79-495c-9575-2c400e669cd5",
-                "parentContainer": -1,
-                "inPanelCard": false,
-                "inTreeControl": false,
-                "repeatingSectionParentId": -1,
-                "indentTree": 0,
-                "crc": "4294946187",
-                "v": {
-                    "controlType": "Textbox",
-                    "variableName": "toBluetooth",
-                    "type": "Character",
-                    "maxLength": -1,
-                    "watermark": {
-                        "text": "<FieldLabel>"
-                    },
-                    "textboxSubTheme": "",
-                    "textboxAutocorrect": true,
-                    "textboxAutoCapitalize": true,
-                    "label": "Textbox1",
-                    "class": "<Default>",
-                    "breakType": "After",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "repeatingSectionColumnHeading": "<FieldLabel>",
-                    "helpIcon": "images/$$generic.help.png.a5image",
-                    "showHelpIcon": "None",
-                    "helpIconBehavior": "ShowHelpOnClick",
-                    "clientSideFormat": {
-                        "type": "Mask"
-                    },
-                    "onChange_ValidationOption": "Client-side only",
-                    "dataBinding": {
-                        "updateable": true,
-                        "image": {
-                            "type": "JPG",
-                            "noImageFoundImage": "<None>",
-                            "newRecordImage": "<None>"
-                        }
-                    },
-                    "datePicker": {
-                        "displayTimePicker": false,
-                        "openMethod": "ClickIcon",
-                        "dateFormat": "<Default>",
-                        "iconNumber": 2,
-                        "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel",
-                        "userMustSelectFromDatePicker": false,
-                        "multiple": {
-                            "allow": false,
-                            "separators": ".."
-                        },
-                        "hasMask": false,
-                        "format": {
-                            "mask": ""
-                        },
-                        "timePickerOptionsDefined": false,
-                        "display": false
-                    },
-                    "displayAsSlider": false,
-                    "precalc": {
-                        "javascriptAbstractSetupCode": ""
-                    },
-                    "flags": {
-                        "clientSideDefinition": false
-                    }
-                },
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.TOBLUETOOTH\" title=\"\"     class=\"[class.dialogInput]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.TOBLUETOOTH\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
-                    "DesignViewHTML": "",
-                    "columnInfo": "'TOBLUETOOTH': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
-                }
-            },
-            {
-                "controltype": "layout_directive_button",
-                "display": "{B=White,Light Blue}{Data=936d7738-0ca7-4294-a97e-f705168314c4}{I:'$$control.button'} [Button: Connect]",
-                "displayODFlat": "{Data=936d7738-0ca7-4294-a97e-f705168314c4}{I:'$$control.button'} [Button]",
-                "displayOD": "{B=White,Light Blue}{Data=936d7738-0ca7-4294-a97e-f705168314c4}{I:'$$control.button'} [Button]",
-                "displayODtree": "{B=White,Light Blue}{Data=936d7738-0ca7-4294-a97e-f705168314c4}{I:'$$control.button'} [Button: Connect]",
-                "idInternal": "936d7738-0ca7-4294-a97e-f705168314c4",
-                "parentContainer": -1,
-                "inPanelCard": false,
-                "inTreeControl": false,
-                "repeatingSectionParentId": -1,
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_3\"    ></button>\n</div>",
-                    "DesignViewHTML": ""
-                },
-                "crc": "4294928975",
-                "v": {
-                    "buttonText": "Connect",
-                    "Class": "<Default>",
-                    "BreakType": "None",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "id": "BUTTON_3",
-                    "advancedButtonStyling": true,
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "advancedButton": {
-                        "subTheme": "",
-                        "buttonClass": "",
-                        "buttonClassDisabled": "",
-                        "buttonClassHover": "",
-                        "buttonClassPressed": "",
-                        "buttonInlineStyle": "",
-                        "buttonstyle": "Text only",
-                        "disabledImageName": "",
-                        "hoverImageName": "",
-                        "displayDropdownIconOnButton": false,
-                        "displayAsSplitButton": false,
-                        "hyperlinkClass": "[class.gridHyperlinkButton]",
-                        "hyperlinkImagePosition": "None",
-                        "hyperlinkInlineStyle": "",
-                        "imageClass": "",
-                        "imageInlineStyle": "",
-                        "imageName": "",
-                        "pressedImageName": "",
-                        "textClass": "",
-                        "textInlineStyle": "",
-                        "type": "Button"
-                    },
-                    "securityGroups": "",
-                    "showHideExpn": "",
-                    "clientSideconditionalStyle": "",
-                    "CalcExpression": "",
-                    "EnableExpression": "",
-                    "ShowExpression": "",
-                    "abstractJavascript": {
-                        "click": "bluetoothSerial.connect('20:16:04:25:33:70', function(connectSuccess){alert('Connected');}, function(connectFailure){alert('Did not Connect');})"
-                    },
-                    "precalc": {
-                        "javascriptClientSideWatches": "",
-                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_3',A5.d.evnts.click,function(e) {\nbluetoothSerial.connect('20:16:04:25:33:70', function(connectSuccess){alert('Connected');}, function(connectFailure){alert('Did not Connect');})\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_3');\n",
-                        "javascriptAdvancedButton": "",
-                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_3'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Connect',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
-                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_3'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_3');"
-                    },
-                    "javascript": {
-                        "onclick": ""
-                    }
-                }
-            },
-            {
-                "controltype": "layout_directive_tabSpacer",
-                "display": "{B=White,Light Blue}{Data=a2edf2cf-6bfe-4bc9-96b8-35885371b40d}{I:'$$navigate.arrow.right'} [TabStop]",
-                "displayODFlat": "{Data=a2edf2cf-6bfe-4bc9-96b8-35885371b40d}{I:'$$navigate.arrow.right'} [TabStop]",
-                "displayOD": "{B=White,Light Blue}{Data=a2edf2cf-6bfe-4bc9-96b8-35885371b40d}{I:'$$navigate.arrow.right'} [TabStop]",
-                "displayODtree": "{B=White,Light Blue}{Data=a2edf2cf-6bfe-4bc9-96b8-35885371b40d}{I:'$$navigate.arrow.right'} [TabStop]",
-                "idInternal": "a2edf2cf-6bfe-4bc9-96b8-35885371b40d",
-                "parentContainer": -1,
-                "inPanelCard": false,
-                "inTreeControl": false,
-                "repeatingSectionParentId": -1,
-                "indentTree": 0,
-                "v": {
-                    "id": "TABSPACER_1"
-                },
-                "precalc": {
-                    "ControlHTML": "<!--TabSpacer-->\n",
-                    "DesignViewHTML": ""
-                },
-                "crc": "4294953560"
-            },
-            {
-                "controltype": "layout_directive_button",
-                "display": "{B=White,Light Blue}{Data=8bca0f35_366e_4f43_b6ca_699bf261d36d}{I:'$$control.button'} [Button: Disconnect] �",
-                "displayODFlat": "{Data=8bca0f35_366e_4f43_b6ca_699bf261d36d}{I:'$$control.button'} [Button]",
-                "displayOD": "{B=White,Light Blue}{Data=8bca0f35_366e_4f43_b6ca_699bf261d36d}{I:'$$control.button'} [Button]",
-                "displayODtree": "{B=White,Light Blue}{Data=8bca0f35_366e_4f43_b6ca_699bf261d36d}{I:'$$control.button'} [Button: Disconnect] �",
-                "idInternal": "8bca0f35_366e_4f43_b6ca_699bf261d36d",
-                "parentContainer": -1,
-                "inPanelCard": false,
-                "inTreeControl": false,
-                "repeatingSectionParentId": -1,
-                "indentTree": 0,
-                "crc": "4294959248",
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_4\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
-                    "DesignViewHTML": ""
-                },
-                "v": {
-                    "buttonText": "Disconnect",
-                    "Class": "<Default>",
-                    "BreakType": "After",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "id": "BUTTON_4",
-                    "advancedButtonStyling": true,
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "advancedButton": {
-                        "subTheme": "",
-                        "buttonClass": "",
-                        "buttonClassDisabled": "",
-                        "buttonClassHover": "",
-                        "buttonClassPressed": "",
-                        "buttonInlineStyle": "",
-                        "buttonstyle": "Text only",
-                        "disabledImageName": "",
-                        "hoverImageName": "",
-                        "displayDropdownIconOnButton": false,
-                        "displayAsSplitButton": false,
-                        "hyperlinkClass": "[class.gridHyperlinkButton]",
-                        "hyperlinkImagePosition": "None",
-                        "hyperlinkInlineStyle": "",
-                        "imageClass": "",
-                        "imageInlineStyle": "",
-                        "imageName": "",
-                        "pressedImageName": "",
-                        "textClass": "",
-                        "textInlineStyle": "",
-                        "type": "Button"
-                    },
-                    "securityGroups": "",
-                    "showHideExpn": "",
-                    "clientSideconditionalStyle": "",
-                    "CalcExpression": "",
-                    "EnableExpression": "",
-                    "ShowExpression": "",
-                    "abstractJavascript": {
-                        "click": "bluetoothSerial.disconnect('20:16:04:25:33:70', function(connectSuccess){alert('Connected');}, function(connectFailure){alert('Did not Connect');})"
-                    },
-                    "precalc": {
-                        "javascriptClientSideWatches": "",
-                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_4',A5.d.evnts.click,function(e) {\nbluetoothSerial.disconnect('20:16:04:25:33:70', function(connectSuccess){alert('Connected');}, function(connectFailure){alert('Did not Connect');})\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_4');\n",
-                        "javascriptAdvancedButton": "",
-                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_4'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Disconnect',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
-                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_4'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_4');"
-                    },
-                    "javascript": {
-                        "onclick": ""
-                    }
-                }
-            },
-            {
-                "controltype": "layout_directive_button",
-                "display": "{B=White,Light Blue}{Data=3710e0ca-508d-438e-926c-43ce49978483}{I:'$$control.button'} [Button: Send to Bluetooth] �",
-                "displayODFlat": "{Data=3710e0ca-508d-438e-926c-43ce49978483}{I:'$$control.button'} [Button]",
-                "displayOD": "{B=White,Light Blue}{Data=3710e0ca-508d-438e-926c-43ce49978483}{I:'$$control.button'} [Button]",
-                "displayODtree": "{B=White,Light Blue}{Data=3710e0ca-508d-438e-926c-43ce49978483}{I:'$$control.button'} [Button: Send to Bluetooth] �",
-                "idInternal": "3710e0ca-508d-438e-926c-43ce49978483",
-                "parentContainer": -1,
-                "inPanelCard": false,
-                "inTreeControl": false,
-                "repeatingSectionParentId": -1,
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
-                    "DesignViewHTML": ""
-                },
-                "crc": "4294950044",
-                "v": {
-                    "buttonText": "Send to Bluetooth",
-                    "Class": "<Default>",
-                    "BreakType": "After",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "id": "BUTTON_1",
-                    "advancedButtonStyling": true,
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "advancedButton": {
-                        "subTheme": "",
-                        "buttonClass": "",
-                        "buttonClassDisabled": "",
-                        "buttonClassHover": "",
-                        "buttonClassPressed": "",
-                        "buttonInlineStyle": "",
-                        "buttonstyle": "Text only",
-                        "disabledImageName": "",
-                        "hoverImageName": "",
-                        "displayDropdownIconOnButton": false,
-                        "displayAsSplitButton": false,
-                        "hyperlinkClass": "[class.gridHyperlinkButton]",
-                        "hyperlinkImagePosition": "None",
-                        "hyperlinkInlineStyle": "",
-                        "imageClass": "",
-                        "imageInlineStyle": "",
-                        "imageName": "",
-                        "pressedImageName": "",
-                        "textClass": "",
-                        "textInlineStyle": "",
-                        "type": "Button"
-                    },
-                    "securityGroups": "",
-                    "showHideExpn": "",
-                    "clientSideconditionalStyle": "",
-                    "CalcExpression": "",
-                    "EnableExpression": "",
-                    "ShowExpression": "",
-                    "abstractJavascript": {
-                        "click": "bluetoothSerial.write({dialog.Object}.getValue('toBluetooth'));"
-                    },
-                    "precalc": {
-                        "javascriptClientSideWatches": "",
-                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1',A5.d.evnts.click,function(e) {\nbluetoothSerial.write({dialog.Object}.getValue('toBluetooth'));\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1');\n",
-                        "javascriptAdvancedButton": "",
-                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_1'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Send to Bluetooth',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
-                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_1'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_1');"
-                    },
-                    "javascript": {
-                        "onclick": ""
-                    }
-                }
-            },
-            {
-                "controltype": "layout_directive_statictext",
-                "display": "{B=White,Light Blue}{Data=3aa0d5c5-ab96-44c0-89cf-bca2c90ce70a}{I:'$$format.text'} [Static Text: From BlueTooth]",
-                "displayODFlat": "{Data=3aa0d5c5-ab96-44c0-89cf-bca2c90ce70a}{I:'$$format.text'} [Static Text]",
-                "displayOD": "{B=White,Light Blue}{Data=3aa0d5c5-ab96-44c0-89cf-bca2c90ce70a}{I:'$$format.text'} [Static Text]",
-                "displayODtree": "{B=White,Light Blue}{Data=3aa0d5c5-ab96-44c0-89cf-bca2c90ce70a}{I:'$$format.text'} [Static Text: From BlueTooth]",
-                "idInternal": "3aa0d5c5-ab96-44c0-89cf-bca2c90ce70a",
-                "parentContainer": -1,
-                "inPanelCard": false,
-                "inTreeControl": false,
-                "repeatingSectionParentId": -1,
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_3\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >From BlueTooth</div>\n</div>",
-                    "DesignViewHTML": ""
-                },
-                "crc": "4294940593",
-                "v": {
-                    "StaticText": "From BlueTooth",
-                    "Class": "<Default>",
-                    "BreakType": "None",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "id": "STATICTEXT_3",
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "precalc": {
-                        "javascriptAbstractSetupCode": ""
-                    }
-                }
-            },
-            {
-                "controltype": "dialog_formcontrol",
-                "display": "{B=White,Light Blue}{Data=8eb87663-e5ed-40a1-8133-15bd3aeb8a6e}{I:'$$control.edit'} [fromBluetooth] �",
-                "displayODFlat": "{Data=8eb87663-e5ed-40a1-8133-15bd3aeb8a6e}{I:'$$control.edit'} [fromBluetooth]",
-                "displayOD": "{B=White,Light Blue}{Data=8eb87663-e5ed-40a1-8133-15bd3aeb8a6e}{I:'$$control.edit'} [fromBluetooth]",
-                "displayODtree": "{B=White,Light Blue}{Data=8eb87663-e5ed-40a1-8133-15bd3aeb8a6e}{I:'$$control.edit'} [fromBluetooth] �",
-                "idInternal": "8eb87663-e5ed-40a1-8133-15bd3aeb8a6e",
-                "parentContainer": -1,
-                "inPanelCard": false,
-                "inTreeControl": false,
-                "repeatingSectionParentId": -1,
-                "indentTree": 0,
-                "v": {
-                    "controlType": "Textbox",
-                    "variableName": "fromBluetooth",
-                    "type": "Character",
-                    "maxLength": -1,
-                    "watermark": {
-                        "text": "<FieldLabel>"
-                    },
-                    "textboxSubTheme": "",
-                    "textboxAutocorrect": true,
-                    "textboxAutoCapitalize": true,
-                    "label": "From Bluetooth",
-                    "class": "<Default>",
-                    "breakType": "After",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "repeatingSectionColumnHeading": "<FieldLabel>",
-                    "helpIcon": "images/$$generic.help.png.a5image",
-                    "showHelpIcon": "None",
-                    "helpIconBehavior": "ShowHelpOnClick",
-                    "clientSideFormat": {
-                        "type": "Mask"
-                    },
-                    "onChange_ValidationOption": "Client-side only",
-                    "dataBinding": {
-                        "updateable": true,
-                        "image": {
-                            "type": "JPG",
-                            "noImageFoundImage": "<None>",
-                            "newRecordImage": "<None>"
-                        }
-                    },
-                    "datePicker": {
-                        "displayTimePicker": false,
-                        "openMethod": "ClickIcon",
-                        "dateFormat": "<Default>",
-                        "iconNumber": 2,
-                        "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel",
-                        "userMustSelectFromDatePicker": false,
-                        "multiple": {
-                            "allow": false,
-                            "separators": ".."
-                        },
-                        "hasMask": false,
-                        "format": {
-                            "mask": ""
-                        },
-                        "timePickerOptionsDefined": false,
-                        "display": false
-                    },
-                    "precalc": {
-                        "javascriptAbstractSetupCode": ""
-                    },
-                    "displayAsSlider": false,
-                    "flags": {
-                        "clientSideDefinition": false
-                    }
-                },
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.FROMBLUETOOTH\" title=\"\"     class=\"[class.dialogInput]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.FROMBLUETOOTH\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
-                    "DesignViewHTML": "",
-                    "columnInfo": "'FROMBLUETOOTH': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
-                },
-                "crc": "4294928482"
-            },
-            {
-                "controltype": "layout_directive_button",
-                "display": "{B=White,Light Blue}{Data=c715828a-1822-4cde-a71a-adac8bd93c31}{I:'$$control.button'} [Button: Recieve from Bluetoo] �",
-                "displayODFlat": "{Data=c715828a-1822-4cde-a71a-adac8bd93c31}{I:'$$control.button'} [Button]",
-                "displayOD": "{B=White,Light Blue}{Data=c715828a-1822-4cde-a71a-adac8bd93c31}{I:'$$control.button'} [Button]",
-                "displayODtree": "{B=White,Light Blue}{Data=c715828a-1822-4cde-a71a-adac8bd93c31}{I:'$$control.button'} [Button: Recieve from Bluetoo] �",
-                "idInternal": "c715828a-1822-4cde-a71a-adac8bd93c31",
-                "parentContainer": -1,
-                "inPanelCard": false,
-                "inTreeControl": false,
-                "repeatingSectionParentId": -1,
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_2\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
-                    "DesignViewHTML": ""
-                },
-                "crc": "4294950875",
-                "v": {
-                    "buttonText": "Recieve from Bluetooth",
-                    "Class": "<Default>",
-                    "BreakType": "After",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "id": "BUTTON_2",
-                    "advancedButtonStyling": true,
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "advancedButton": {
-                        "subTheme": "",
-                        "buttonClass": "",
-                        "buttonClassDisabled": "",
-                        "buttonClassHover": "",
-                        "buttonClassPressed": "",
-                        "buttonInlineStyle": "",
-                        "buttonstyle": "Text only",
-                        "disabledImageName": "",
-                        "hoverImageName": "",
-                        "displayDropdownIconOnButton": false,
-                        "displayAsSplitButton": false,
-                        "hyperlinkClass": "[class.gridHyperlinkButton]",
-                        "hyperlinkImagePosition": "None",
-                        "hyperlinkInlineStyle": "",
-                        "imageClass": "",
-                        "imageInlineStyle": "",
-                        "imageName": "",
-                        "pressedImageName": "",
-                        "textClass": "",
-                        "textInlineStyle": "",
-                        "type": "Button"
-                    },
-                    "securityGroups": "",
-                    "showHideExpn": "",
-                    "clientSideconditionalStyle": "",
-                    "CalcExpression": "",
-                    "EnableExpression": "",
-                    "ShowExpression": "",
-                    "abstractJavascript": {
-                        "click": "bluetoothSerial.read(function (data){\n    {dialog.Object}.setValue('fromBluetooth',data );}\n    );"
-                    },
-                    "precalc": {
-                        "javascriptClientSideWatches": "",
-                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_2',A5.d.evnts.click,function(e) {\nbluetoothSerial.read(function (data){\n    {dialog.Object}.setValue('fromBluetooth',data );}\n    );\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_2');\n",
-                        "javascriptAdvancedButton": "",
-                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_2'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Recieve from Bluetooth',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
-                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_2'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_2');"
-                    },
-                    "javascript": {
-                        "onclick": ""
-                    }
-                }
-            }
-        ],
-        "_style_versionNumber": -1,
         "style_type": "Alpha Five",
         "resolveAbstractClassNames": true,
         "builderVersionNumber": 1,
@@ -597,9 +9,6 @@
         "FontSize": "Medium",
         "A5ContainerClassPadding": "0px",
         "A5ContainerClassPaddingForContainerWidthMode": "4px",
-        "controlflowdirection": "ltr",
-        "SVGLinkedFiles": "",
-        "localsvg": "",
         "layoutType": "ContainerWidth",
         "previewMode": "MobileDevice",
         "useDragScrolling": "Auto",
@@ -623,6 +32,8 @@
         "onTimerEventInterval": 60,
         "securityDeniedAction": "Redirect to login page",
         "clientSideEvents": {
+            "_canAjaxCallback": "",
+            "__afterAjaxCallbackComplete": "",
             "onAjaxCallbackFailed": "",
             "onAjaxCallbackNotAvailable": "",
             "onServerSideEventHandlerError": "",
@@ -697,9 +108,7 @@
             "securityPermissionDenied": "",
             "webSocketOnMessage": "",
             "webSocketServerClose": "",
-            "webSocketSendMessageFail": "",
-            "_canAjaxCallback": "",
-            "__afterAjaxCallbackComplete": ""
+            "webSocketSendMessageFail": ""
         },
         "onlyValidateChangedFields": true,
         "edit": {
@@ -744,16 +153,17 @@
             "autoRefreshSchemaOnLoad": true,
             "autoRefreshPromptFirst": "Prompt"
         },
+        "info": {
+            "createdBy": "davem",
+            "dateCreated": "2016-8-22",
+            "dateLastEdited": "2016-8-24"
+        },
         "flagShowCommentsInTree": true,
         "treeCommentOffset": "6",
-        "showLineNumbersInControlsList": false,
         "renderUXLocation": {
             "type": "window",
             "sizeToElement": true
         },
-        "customSettingsJSON": "",
-        "saveFileType": "Formatted JSON",
-        "keyboardShortcutsJSON": "",
         "checkSessionEvery": 1,
         "warningIntervalBeforeExpiration": 1,
         "sessionTimeOutWarningMessage": "Your session will expire in {secondsToSessionEnd} seconds. Click the button to extend your session.",
@@ -773,12 +183,602 @@
         "responseDesignRulesMode": "FirstTrue",
         "localStorage": {
             "namespace": "<Default>",
-            "variablesToNotPersist": "",
             "__version": 1,
-            "workingPreviewTestingMode": "Browser"
+            "workingPreviewTestingMode": "Browser",
+            "variablesToNotPersist": ""
         },
         "preRenderComputeWhen": "Every time component is saved",
-        "selected": "c715828a-1822-4cde-a71a-adac8bd93c31\n",
+        "page_fields": [
+            {
+                "controlType": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{Data=34091368-8691-4a12-aa95-f9951edabde8}{I:'$$format.text'} [Static Text: Arduino Bluetooth Sa] �",
+                "displayODFlat": "{Data=34091368-8691-4a12-aa95-f9951edabde8}{I:'$$format.text'} [Static Text]",
+                "idInternal": "34091368-8691-4a12-aa95-f9951edabde8",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=34091368-8691-4a12-aa95-f9951edabde8}{I:'$$format.text'} [Static Text]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=34091368-8691-4a12-aa95-f9951edabde8}{I:'$$format.text'} [Static Text: Arduino Bluetooth Sa] �",
+                "crc": "4294927999",
+                "v": {
+                    "StaticText": "Arduino Bluetooth Sample App 0.03",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_1",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                },
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Arduino Bluetooth Sample App 0.03</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                }
+            },
+            {
+                "controlType": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{Data=9f4e2694-ff1f-4a03-ad0f-570e628bcd9b}{I:'$$format.text'} [Static Text: To Bluetooth]",
+                "displayODFlat": "{Data=9f4e2694-ff1f-4a03-ad0f-570e628bcd9b}{I:'$$format.text'} [Static Text]",
+                "idInternal": "9f4e2694-ff1f-4a03-ad0f-570e628bcd9b",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=9f4e2694-ff1f-4a03-ad0f-570e628bcd9b}{I:'$$format.text'} [Static Text]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=9f4e2694-ff1f-4a03-ad0f-570e628bcd9b}{I:'$$format.text'} [Static Text: To Bluetooth]",
+                "crc": "4294905401",
+                "v": {
+                    "StaticText": "To Bluetooth",
+                    "Class": "<Default>",
+                    "BreakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_2",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                },
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_2\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >To Bluetooth</div>\n</div>",
+                    "DesignViewHTML": ""
+                }
+            },
+            {
+                "controlType": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{Data=daa2c799-8f79-495c-9575-2c400e669cd5}{I:'$$control.edit'} [toBluetooth] �",
+                "displayODFlat": "{Data=daa2c799-8f79-495c-9575-2c400e669cd5}{I:'$$control.edit'} [toBluetooth]",
+                "idInternal": "daa2c799-8f79-495c-9575-2c400e669cd5",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=daa2c799-8f79-495c-9575-2c400e669cd5}{I:'$$control.edit'} [toBluetooth]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=daa2c799-8f79-495c-9575-2c400e669cd5}{I:'$$control.edit'} [toBluetooth] �",
+                "crc": "4294946187",
+                "v": {
+                    "controlType": "Textbox",
+                    "variableName": "toBluetooth",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Textbox1",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        }
+                    },
+                    "textboxSubTheme": "",
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                },
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.TOBLUETOOTH\" title=\"\"     class=\"[class.dialogInput]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.TOBLUETOOTH\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'TOBLUETOOTH': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                }
+            },
+            {
+                "controlType": "layout_directive_button",
+                "display": "{B=White,Light Blue}{Data=936d7738-0ca7-4294-a97e-f705168314c4}{I:'$$control.button'} [Button: Connect]",
+                "displayODFlat": "{Data=936d7738-0ca7-4294-a97e-f705168314c4}{I:'$$control.button'} [Button]",
+                "idInternal": "936d7738-0ca7-4294-a97e-f705168314c4",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=936d7738-0ca7-4294-a97e-f705168314c4}{I:'$$control.button'} [Button]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=936d7738-0ca7-4294-a97e-f705168314c4}{I:'$$control.button'} [Button: Connect]",
+                "crc": "4294907734",
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_3\"    ></button>\n</div>",
+                    "DesignViewHTML": ""
+                },
+                "v": {
+                    "buttonText": "Connect",
+                    "Class": "<Default>",
+                    "BreakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "BUTTON_3",
+                    "advancedButtonStyling": true,
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Text only",
+                        "disabledImageName": "",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "displayAsSplitButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "",
+                    "ShowExpression": "",
+                    "abstractJavascript": {
+                        "click": "bluetoothSerial.connect('20:16:04:25:33:70', function(connectSuccess){alert('Connected');}, function(connectFailure){alert('Did not Connect');})"
+                    },
+                    "precalc": {
+                        "javascriptClientSideWatches": "",
+                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_3',A5.d.evnts.click,function(e) {\nbluetoothSerial.connect('20:16:04:25:33:70', function(connectSuccess){alert('Connected');}, function(connectFailure){alert('Did not Connect');})\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_3');\n",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_3'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Connect',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_3'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_3');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                }
+            },
+            {
+                "controlType": "layout_directive_tabSpacer",
+                "display": "{B=White,Light Blue}{Data=a2edf2cf-6bfe-4bc9-96b8-35885371b40d}{I:'$$navigate.arrow.right'} [TabStop]",
+                "displayODFlat": "{Data=a2edf2cf-6bfe-4bc9-96b8-35885371b40d}{I:'$$navigate.arrow.right'} [TabStop]",
+                "idInternal": "a2edf2cf-6bfe-4bc9-96b8-35885371b40d",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=a2edf2cf-6bfe-4bc9-96b8-35885371b40d}{I:'$$navigate.arrow.right'} [TabStop]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=a2edf2cf-6bfe-4bc9-96b8-35885371b40d}{I:'$$navigate.arrow.right'} [TabStop]",
+                "crc": "4294953560",
+                "v": {
+                    "id": "TABSPACER_1"
+                },
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<!--TabSpacer-->\n",
+                    "DesignViewHTML": ""
+                }
+            },
+            {
+                "controlType": "layout_directive_button",
+                "display": "{B=White,Light Blue}{Data=8bca0f35_366e_4f43_b6ca_699bf261d36d}{I:'$$control.button'} [Button: Disconnect] �",
+                "displayODFlat": "{Data=8bca0f35_366e_4f43_b6ca_699bf261d36d}{I:'$$control.button'} [Button]",
+                "idInternal": "8bca0f35_366e_4f43_b6ca_699bf261d36d",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=8bca0f35_366e_4f43_b6ca_699bf261d36d}{I:'$$control.button'} [Button]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=8bca0f35_366e_4f43_b6ca_699bf261d36d}{I:'$$control.button'} [Button: Disconnect] �",
+                "crc": "4294959248",
+                "v": {
+                    "buttonText": "Disconnect",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "BUTTON_4",
+                    "advancedButtonStyling": true,
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Text only",
+                        "disabledImageName": "",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "displayAsSplitButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "",
+                    "ShowExpression": "",
+                    "abstractJavascript": {
+                        "click": "bluetoothSerial.disconnect('20:16:04:25:33:70', function(connectSuccess){alert('Connected');}, function(connectFailure){alert('Did not Connect');})"
+                    },
+                    "precalc": {
+                        "javascriptClientSideWatches": "",
+                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_4',A5.d.evnts.click,function(e) {\nbluetoothSerial.disconnect('20:16:04:25:33:70', function(connectSuccess){alert('Connected');}, function(connectFailure){alert('Did not Connect');})\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_4');\n",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_4'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Disconnect',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_4'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_4');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                },
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_4\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                }
+            },
+            {
+                "controlType": "layout_directive_button",
+                "display": "{B=White,Light Blue}{Data=3710e0ca-508d-438e-926c-43ce49978483}{I:'$$control.button'} [Button: Send to Bluetooth] �",
+                "displayODFlat": "{Data=3710e0ca-508d-438e-926c-43ce49978483}{I:'$$control.button'} [Button]",
+                "idInternal": "3710e0ca-508d-438e-926c-43ce49978483",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=3710e0ca-508d-438e-926c-43ce49978483}{I:'$$control.button'} [Button]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=3710e0ca-508d-438e-926c-43ce49978483}{I:'$$control.button'} [Button: Send to Bluetooth] �",
+                "crc": "4294927253",
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "v": {
+                    "buttonText": "Send to Bluetooth",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "BUTTON_1",
+                    "advancedButtonStyling": true,
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Text only",
+                        "disabledImageName": "",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "displayAsSplitButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "",
+                    "ShowExpression": "",
+                    "abstractJavascript": {
+                        "click": "bluetoothSerial.write({dialog.Object}.getValue('toBluetooth'));"
+                    },
+                    "precalc": {
+                        "javascriptClientSideWatches": "",
+                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1',A5.d.evnts.click,function(e) {\nbluetoothSerial.write({dialog.Object}.getValue('toBluetooth'));\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1');\n",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_1'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Send to Bluetooth',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_1'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_1');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                }
+            },
+            {
+                "controlType": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{Data=3aa0d5c5-ab96-44c0-89cf-bca2c90ce70a}{I:'$$format.text'} [Static Text: From BlueTooth]",
+                "displayODFlat": "{Data=3aa0d5c5-ab96-44c0-89cf-bca2c90ce70a}{I:'$$format.text'} [Static Text]",
+                "idInternal": "3aa0d5c5-ab96-44c0-89cf-bca2c90ce70a",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=3aa0d5c5-ab96-44c0-89cf-bca2c90ce70a}{I:'$$format.text'} [Static Text]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=3aa0d5c5-ab96-44c0-89cf-bca2c90ce70a}{I:'$$format.text'} [Static Text: From BlueTooth]",
+                "crc": "4294940593",
+                "v": {
+                    "StaticText": "From BlueTooth",
+                    "Class": "<Default>",
+                    "BreakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_3",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                },
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_3\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >From BlueTooth</div>\n</div>",
+                    "DesignViewHTML": ""
+                }
+            },
+            {
+                "controlType": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{Data=8eb87663-e5ed-40a1-8133-15bd3aeb8a6e}{I:'$$control.edit'} [fromBluetooth] �",
+                "displayODFlat": "{Data=8eb87663-e5ed-40a1-8133-15bd3aeb8a6e}{I:'$$control.edit'} [fromBluetooth]",
+                "idInternal": "8eb87663-e5ed-40a1-8133-15bd3aeb8a6e",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=8eb87663-e5ed-40a1-8133-15bd3aeb8a6e}{I:'$$control.edit'} [fromBluetooth]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=8eb87663-e5ed-40a1-8133-15bd3aeb8a6e}{I:'$$control.edit'} [fromBluetooth] �",
+                "crc": "4294928482",
+                "v": {
+                    "controlType": "Textbox",
+                    "variableName": "fromBluetooth",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "From Bluetooth",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        }
+                    },
+                    "textboxSubTheme": "",
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                },
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.FROMBLUETOOTH\" title=\"\"     class=\"[class.dialogInput]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.FROMBLUETOOTH\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'FROMBLUETOOTH': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                }
+            },
+            {
+                "controlType": "layout_directive_button",
+                "display": "{B=White,Light Blue}{Data=c715828a-1822-4cde-a71a-adac8bd93c31}{I:'$$control.button'} [Button: Receive from Bluetoo] �",
+                "displayODFlat": "{Data=c715828a-1822-4cde-a71a-adac8bd93c31}{I:'$$control.button'} [Button]",
+                "idInternal": "c715828a-1822-4cde-a71a-adac8bd93c31",
+                "parentContainer": -1,
+                "displayOD": "{B=White,Light Blue}{Data=c715828a-1822-4cde-a71a-adac8bd93c31}{I:'$$control.button'} [Button]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=c715828a-1822-4cde-a71a-adac8bd93c31}{I:'$$control.button'} [Button: Receive from Bluetoo] �",
+                "crc": "4294919600",
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_2\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "v": {
+                    "buttonText": "Receive from Bluetooth",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "BUTTON_2",
+                    "advancedButtonStyling": true,
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Text only",
+                        "disabledImageName": "",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "displayAsSplitButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "",
+                    "ShowExpression": "",
+                    "abstractJavascript": {
+                        "click": "bluetoothSerial.read(function (data){\n    {dialog.Object}.setValue('fromBluetooth',data );}\n    );"
+                    },
+                    "precalc": {
+                        "javascriptClientSideWatches": "",
+                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_2',A5.d.evnts.click,function(e) {\nbluetoothSerial.read(function (data){\n    {dialog.Object}.setValue('fromBluetooth',data );}\n    );\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_2');\n",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_2'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Receive from Bluetooth',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_2'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_2');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                }
+            }
+        ],
+        "builderType": "Dialog2",
+        "guid": "9eaec2e7-f810-439e-92a4-5e12f6ccf6e8",
+        "componentName": "bluetoothTest",
+        "componentFilename": "Z:\\Documents\\alpha\\Product Management\\Sample Apps\\20160822 adrduinoBluetooth\\arduinoBluetooth.WebProjects\\Default.WebProject\\bluetoothTest.a5wcmp",
+        "_style_versionNumber": -1,
+        "controlflowdirection": "ltr",
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "showLineNumbersInControlsList": false,
+        "customSettingsJSON": "",
+        "saveFileType": "Formatted JSON",
+        "keyboardShortcutsJSON": "",
+        "selected": "8bca0f35_366e_4f43_b6ca_699bf261d36d\n",
         "designPaneIndex": 1,
         "masterPaneC": "controls",
         "serverSideEventIndex": 1,
@@ -856,7 +856,7 @@
                 "showSlider": false
             }
         },
-        "mobileDeviceDefault": "iphone4_v",
+        "mobileDeviceDefault": "nexus10_v",
         "_flagDoTreeview": true
     }
 }
